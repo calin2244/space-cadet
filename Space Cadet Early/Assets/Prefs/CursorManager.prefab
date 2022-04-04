@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4744819244563505314
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4744819244563505312}
+  - component: {fileID: 4744819244563505313}
+  m_Layer: 0
+  m_Name: CursorManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4744819244563505312
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4744819244563505314}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -8.491822, y: -6.9498444, z: -0.11795757}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4744819244563505313
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4744819244563505314}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 218cfb61be7f0a34a968b99848099bee, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cursorAnimationList:
+  - cursorType: 0
+    textureArray:
+    - {fileID: 2800000, guid: f13172b1e4d5fe64499e8a2b15f227e3, type: 3}
+    - {fileID: 2800000, guid: cfa3ffe31fb0a1d4a8b204a70058525e, type: 3}
+    - {fileID: 2800000, guid: 5481fb79edeb2264f8b817019abf1640, type: 3}
+    - {fileID: 2800000, guid: 690b102c42819db48a78826d99b5a0fa, type: 3}
+    - {fileID: 2800000, guid: acbc447cf3870f248a43dbdbabf23288, type: 3}
+    - {fileID: 2800000, guid: 29e820f7e657f414ba507a825ce62583, type: 3}
+    - {fileID: 2800000, guid: 7cd91e9168d46394fac8e0509ea785fa, type: 3}
+    - {fileID: 2800000, guid: 6d42b4fad4c20c84ab2878987a9ac716, type: 3}
+    - {fileID: 2800000, guid: dbadb7a02bbbcf54987e21d30d9c4f0f, type: 3}
+    frameRate: 0.1
+    offset: {x: 16, y: 16}
+  - cursorType: 1
+    textureArray:
+    - {fileID: 2800000, guid: 74296a574e13b844ea887ac0fc1592cc, type: 3}
+    frameRate: 0.18
+    offset: {x: 15, y: 18}
